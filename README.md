@@ -1,4 +1,4 @@
-# Project Title
+# Movie Database
 
 This is a small *personal* project to reinforce React and REST APIs
 
