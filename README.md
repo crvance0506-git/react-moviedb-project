@@ -4,7 +4,7 @@ This is a small *personal* project to reinforce React and REST APIs
 
 ## Description
 
-This project uses React and TMDB's API to create a simple movie database with a search function and favorites function using browser localStorage. If you want to view the current web page now, visit: https://movie-database-project-cv0506.netlify.app/
+This project uses React and TMDB's API to create a simple movie database with a search function and favorites function using browser localStorage. If you want to view the current web page now, visit: https://cv0506-moviedb-project.netlify.app/
 
 ## Getting Started
 
