@@ -1,0 +1,108 @@
+.home {
+  padding: 2rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.popular-now {
+  color: black;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px rgba(0, 30, 111, 0.481);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.popular-now-div {
+  align-items: center;
+  display: flex;
+  margin-left: 15px;
+}
+
+.clear-icon {
+  vertical-align: center;
+  cursor: pointer;
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+}
+
+.search-form {
+  outline: 3px solid black;
+  border-radius: 0.2rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.search-form:focus-within {
+    outline: none;
+    border: none;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  outline: none;
+  background-color: #ededed;
+  color: rgb(0, 0, 0);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2rem;
+}
+
+.search-button {
+  padding: 0px;
+  outline: none;
+  font-size: 1.5rem;
+  background-color: #ededed;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+}
+
+.search-icon {
+    align-items: center;
+    cursor: pointer;
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+}
+
+.search-button:hover {
+    color: rgba(0, 0, 0, 0.485);
+    transition: color 0.1s;
+    outline: none;
+}
+
+.search-button:focus,
+.search-button:focus-visible {
+    outline: none;
+}
+
+@media (max-width: 639px) {
+  .home {
+    padding: 1rem 0;
+  }
+
+  .search-form {
+    margin-bottom: 1rem;
+  }
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
