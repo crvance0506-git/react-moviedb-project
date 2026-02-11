@@ -15,7 +15,10 @@ This project uses React and TMDB's API to create a simple movie database with a 
 
 ### Dependencies
 
-* This project uses React and Vite, both of which should be in package.JSON
+* This project uses React and Vite
+```
+npm install
+```
 
 ### Executing program
 
